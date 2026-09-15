@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: instructors-service1
+  config:
+    import: "configserver:http://localhost:8888"
